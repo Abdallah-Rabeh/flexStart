@@ -1,0 +1,53 @@
+//!  Color Web Site  //
+  
+  // ? End Color Web Site // 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing-: border-box;
+    -moz-box-sizing-: border-box;
+    -ms-box-sizing-: border-box;
+    box-sizing: border-box; }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box; }
+    body{
+        margin: 0 ;padding: 0;        
+    }
+    h1,h2,h3,h4{
+        font-weight: bold;
+    }
+    // ! Navbar Left  Web Site  //
+header{
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+ nav{
+        .navbar-toggler {
+            border-color: transparent !important;
+    }
+    .navbar-brand{
+        font-size: 30px; 
+        img{
+            width: 20%;
+        }
+    }
+    li{
+        font-size: 17px;
+        a{
+            color: #2196f3 !important;
+        }
+    }
+}
+.flex{
+    h2{
+        width: 75%;
+    }
+    p{
+        width: 68%;
+    }
+}
+}
+    
+// ----------------------------------------------//
+@import './media'; 
