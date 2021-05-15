@@ -18,7 +18,8 @@ body {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Open Sans",sans-serif;
+  color: #673ab7; }
 
 header {
   background-image: url(../img/hero-bg.png);
@@ -26,7 +27,9 @@ header {
   header nav .navbar-toggler {
     border-color: transparent !important; }
   header nav .navbar-brand {
-    font-size: 30px; }
+    font-size: 30px;
+    color: #673ab7 !important;
+    font-weight: bold; }
     header nav .navbar-brand img {
       width: 20%; }
   header nav li a {
@@ -52,28 +55,50 @@ header {
   header .flex button {
     font-size: 20px; }
 
+#About .text {
+  padding: 10px; }
+  #About .text h5 {
+    text-transform: uppercase; }
+  #About .text h2, #About .text p {
+    line-height: 1.7; }
+  #About .text button {
+    font-size: 20px;
+    padding: 10px; }
+
 @media (min-width: 350px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 20px !important; }
   .flex p {
-    font-size: 15px !important; } }
+    font-size: 15px !important; }
+
+  #About .text h2 {
+    font-size: 12px; } }
 @media (min-width: 371px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 20px !important; }
   .flex p {
     font-size: 15px !important; }
   .flex button {
-    font-size: 17px !important; } }
+    font-size: 17px !important; }
+
+  #About .text h2 {
+    font-size: 12px; } }
 @media (min-width: 577px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 22px !important; }
   .flex p {
-    font-size: 18px !important; } }
+    font-size: 18px !important; }
+
+  #About .text h2 {
+    font-size: large; } }
 @media (min-width: 769px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 28px !important; }
   .flex p {
-    font-size: 20px !important; } }
+    font-size: 20px !important; }
+
+  #About .text h2 {
+    font-size: large; } }
 @media (min-width: 992px) and (max-width: 1200px) {
   .flex h2 {
     font-size: 30px !important; }

@@ -19,9 +19,9 @@
     h1,h2,h3,h4{
         font-weight: bold;
         font-family: "Open Sans",sans-serif; 
+        color: #673ab7;
     }
-    // ! Navbar Left  Web Site  //
-
+    // !  Start Header  Web Site  //
     header{
         background-image: url(../img/hero-bg.png);
         background-size: cover;
@@ -31,6 +31,8 @@
             }
             .navbar-brand{
                 font-size: 30px; 
+                color: #673ab7 !important;
+                font-weight: bold;
                 img{
                     width: 20%;
                 }
@@ -60,25 +62,22 @@
             button { font-size: 20px}
          }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //? End Header Web Site //
+    #About{
+        .text{
+            padding: 10px;
+            h5{
+                text-transform: uppercase
+            }
+            h2,p{
+                line-height: 1.7; 
+            }
+            button{
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+    }
 // ----------------------------------------------//
 @import './media'; 
 

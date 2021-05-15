@@ -7,6 +7,13 @@
             font-size: 15px !important;
         }
     }
+    #About{
+        .text{
+            h2{
+                font-size: 12px;
+            }
+        }
+    }
 }
 @media (min-width: 371px) and (max-width: 1300px){
     .flex{
@@ -20,6 +27,13 @@
             font-size: 17px !important;
         }
     }
+    #About{
+        .text{
+            h2{
+                font-size: 12px;
+            }
+        }
+    }
 }
  @media (min-width: 577px) and (max-width: 1300px) {
    
@@ -29,6 +43,13 @@
         }
         p{
             font-size: 18px !important;
+        }
+    }
+    #About{
+        .text{
+            h2{
+                font-size: large;
+            }
         }
     }
 
@@ -41,6 +62,13 @@
         }
         p{
             font-size: 20px !important;
+        }
+    }
+    #About{
+        .text{
+            h2{
+                font-size: large;
+            }
         }
     }
  }
