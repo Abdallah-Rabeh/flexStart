@@ -72,9 +72,9 @@ header {
     font-size: 15px !important; }
 
   #About .text h2 {
-    font-size: 12px; }
+    font-size: 15px; }
   #About .text p {
-    font-size: 10px; } }
+    font-size: 12px; } }
 @media (min-width: 371px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 20px !important; }
@@ -84,9 +84,9 @@ header {
     font-size: 17px !important; }
 
   #About .text h2 {
-    font-size: 12px; }
+    font-size: 15px; }
   #About .text p {
-    font-size: 11px; } }
+    font-size: 12px; } }
 @media (min-width: 577px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 22px !important; }
