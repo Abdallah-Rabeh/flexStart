@@ -64,7 +64,6 @@
     }
     //? End Header Web Site //
     #About{
-        height: 100vh;
         .text{
             padding: 10px;
             h5{
@@ -79,6 +78,22 @@
             }
         }
     }
+    .Valuse{
+        h5{
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .img-bg{
+        background-color: #fff;
+        box-shadow: 0 0 0 10px #fff;
+        height: 100%;
+        padding: 30px;
+        border: 1px solid #000;
+        text-align: center;
+        padding-top: 25px;
+        }
+    }
+    // #Services{}
 // ----------------------------------------------//
 @import './media'; 
 

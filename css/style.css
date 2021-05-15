@@ -55,17 +55,27 @@ header {
   header .flex button {
     font-size: 20px; }
 
-#About {
-  height: 100vh; }
-  #About .text {
+#About .text {
+  padding: 10px; }
+  #About .text h5 {
+    text-transform: uppercase; }
+  #About .text h2, #About .text p {
+    line-height: 1.7; }
+  #About .text button {
+    font-size: 20px;
     padding: 10px; }
-    #About .text h5 {
-      text-transform: uppercase; }
-    #About .text h2, #About .text p {
-      line-height: 1.7; }
-    #About .text button {
-      font-size: 20px;
-      padding: 10px; }
+
+.Valuse h5 {
+  text-transform: uppercase;
+  text-align: center; }
+.Valuse .img-bg {
+  background-color: #fff;
+  box-shadow: 0 0 0 10px #fff;
+  height: 100%;
+  padding: 30px;
+  border: 1px solid #000;
+  text-align: center;
+  padding-top: 25px; }
 
 @media (min-width: 350px) and (max-width: 1300px) {
   .flex h2 {
