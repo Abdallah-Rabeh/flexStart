@@ -13,35 +13,72 @@
   *::after {
     box-sizing: border-box; }
     body{
-        margin: 0 ;padding: 0;        
+        margin: 0 ;padding: 0;     
+        font-family: "Nunito",sans-serif;  
     }
     h1,h2,h3,h4{
         font-weight: bold;
+        font-family: "Open Sans",sans-serif; 
     }
     // ! Navbar Left  Web Site  //
-header{
-    background-image: url(../img/hero-bg.png);
-    background-size: cover;
- nav{
-        .navbar-toggler {
-            border-color: transparent !important;
-    }
-    .navbar-brand{
-        font-size: 30px; 
-        img{
-            width: 20%;
-        }
-    }
-    li{
-        font-size: 17px;
-        a{
-            color: #2196f3 !important;
-        }
-    }
-}
 
-}
-    
+    header{
+        background-image: url(../img/hero-bg.png);
+        background-size: cover;
+        nav{
+            .navbar-toggler{
+            border-color: transparent !important;
+            }
+            .navbar-brand{
+                font-size: 30px; 
+                img{
+                    width: 20%;
+                }
+            }
+            li{
+                       
+                a{
+                    color: #2196f3 !important;
+                    font-weight: bolder;
+                    text-align: center;
+                    padding: 10px !important;
+                    transition: all 1s ease-in-out;
+                     &:hover{
+                    border: 1px solid #007bff;
+                    background-color: #2196f3;
+                    color: #ffffff !important;
+                    border-radius: 75px;
+                    font-weight: bolder;
+                    }
+                 }
+            }
+        }
+        .flex{
+            h2 { font-size: 30px;  line-height: 1.7;} 
+            p  { font-size: 25px;  line-height: 1.7;}
+            i  { padding: 10px; }
+            button { font-size: 20px}
+         }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ----------------------------------------------//
 @import './media'; 
 

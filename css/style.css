@@ -13,10 +13,12 @@
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Nunito",sans-serif; }
 
 h1, h2, h3, h4 {
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: "Open Sans",sans-serif; }
 
 header {
   background-image: url(../img/hero-bg.png);
@@ -27,9 +29,60 @@ header {
     font-size: 30px; }
     header nav .navbar-brand img {
       width: 20%; }
-  header nav li {
-    font-size: 17px; }
-    header nav li a {
-      color: #2196f3 !important; }
+  header nav li a {
+    color: #2196f3 !important;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px !important;
+    transition: all 1s ease-in-out; }
+    header nav li a:hover {
+      border: 1px solid #007bff;
+      background-color: #2196f3;
+      color: #ffffff !important;
+      border-radius: 75px;
+      font-weight: bolder; }
+  header .flex h2 {
+    font-size: 30px;
+    line-height: 1.7; }
+  header .flex p {
+    font-size: 25px;
+    line-height: 1.7; }
+  header .flex i {
+    padding: 10px; }
+  header .flex button {
+    font-size: 20px; }
+
+@media (min-width: 350px) and (max-width: 1300px) {
+  .flex h2 {
+    font-size: 20px !important; }
+  .flex p {
+    font-size: 15px !important; } }
+@media (min-width: 371px) and (max-width: 1300px) {
+  .flex h2 {
+    font-size: 20px !important; }
+  .flex p {
+    font-size: 15px !important; }
+  .flex button {
+    font-size: 17px !important; } }
+@media (min-width: 577px) and (max-width: 1300px) {
+  .flex h2 {
+    font-size: 22px !important; }
+  .flex p {
+    font-size: 18px !important; } }
+@media (min-width: 769px) and (max-width: 1300px) {
+  .flex h2 {
+    font-size: 28px !important; }
+  .flex p {
+    font-size: 20px !important; } }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .flex h2 {
+    font-size: 30px !important; }
+  .flex p {
+    font-size: 22px !important; } }
+@media (min-width: 1181px) and (max-width: 1300px) {
+  .flex h2 {
+    font-size: 30px !important; }
+  .flex p {
+    font-size: 25px !important; } }
 
 /*# sourceMappingURL=style.css.map */
