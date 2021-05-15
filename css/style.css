@@ -72,7 +72,9 @@ header {
     font-size: 15px !important; }
 
   #About .text h2 {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #About .text p {
+    font-size: 10px; } }
 @media (min-width: 371px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 20px !important; }
@@ -82,7 +84,9 @@ header {
     font-size: 17px !important; }
 
   #About .text h2 {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #About .text p {
+    font-size: 11px; } }
 @media (min-width: 577px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 22px !important; }
@@ -90,7 +94,9 @@ header {
     font-size: 18px !important; }
 
   #About .text h2 {
-    font-size: large; } }
+    font-size: large; }
+  #About .text p {
+    font-size: 15px; } }
 @media (min-width: 769px) and (max-width: 1300px) {
   .flex h2 {
     font-size: 28px !important; }
